@@ -1,0 +1,416 @@
+* {
+  color: #303234;
+  font-family: "Work Sans", sans-serif;
+}
+
+.mainNav {
+  background: #fff;
+}
+
+.nav-list {
+  margin-left: 7rem !important;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-left: 1.2rem;
+  padding: 0.4rem 0.2rem;
+  cursor: pointer;
+  color: #303234;
+  border-bottom: #ff0000 3px solid;
+}
+
+.nav-list li:hover {
+  background-color: #ff030364 !important;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #303234 !important;
+  font-weight: 600;
+}
+
+.nav-list li a:hover {
+  font-weight: 600;
+  background: none !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  background-color: #fff !important;
+  border: none;
+  border-radius: 0;
+  line-height: 1rem !important;
+  margin-top: 0.6rem;
+  margin-left: -0.6rem;
+}
+
+.dropdown-menu li {
+  border: none !important;
+}
+
+.dropdown-menu li:hover {
+  background: none !important;
+}
+
+.dropdown-menu li a:hover {
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  color: #ff0000;
+}
+
+.header {
+  background-image: url("Images/dart1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.header-box {
+  padding-top: 5rem !important;
+  padding-bottom: 6rem !important;
+  width: 100%;
+}
+
+.header .header-title {
+  margin-top: 7rem !important;
+  width: 60%;
+}
+
+.header .header-title h3 {
+  color: #fff;
+  text-shadow: 3px 3px 5px #000;
+  line-height: 3.5rem;
+}
+
+.header .header-title h2 {
+  color: #fff;
+  line-height: 5rem;
+  text-shadow: 3px 3px 5px #000;
+}
+
+.header .header-text {
+  width: 53%;
+  color: #fff;
+  line-height: 1.6rem;
+}
+
+.header .header-text em {
+  color: #fff;
+}
+
+.header-box .book-btn {
+  background-color: #ff0000;
+  border-bottom-right-radius: 0.8rem !important;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px #000;
+}
+
+.header-box .book-btn:hover {
+  background-image: linear-gradient(to right, #a20404, rgba(255, 0, 0, 1));
+}
+
+.brands {
+  margin: 7rem 0 0 0 !important;
+}
+
+.brands h1 {
+  margin-bottom: 4.2rem;
+  line-height: 5rem;
+}
+
+.brands h1 span {
+  color: #ff0000;
+  width: 4rem;
+  background: #ff0000;
+  height: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.brands-box img {
+  width: 10%;
+  height: 20%;
+  transition: ease 0.7s;
+}
+
+.brands-box img:hover {
+  transform: scale(120%);
+}
+
+.services {
+  margin-top: 7rem !important;
+  background-image: url("Images/bgsection2.png");
+}
+
+.services-box .services-content {
+  width: 31%;
+  box-shadow: 5px 3px 20px #30323438;
+}
+
+.services-box .services-content:hover {
+  background: #9e9ea2 !important;
+  color: #fff !important;
+}
+
+.services-box h1 span {
+  color: #ff0000;
+  width: 4rem;
+  background: #ff0000;
+  height: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.portfolio {
+  margin-top: 7rem !important;
+}
+
+.portfolio h1 span {
+  color: #ff0000;
+  width: 4rem;
+  background: #ff0000;
+  height: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.portfolio-box img {
+  width: 31%;
+}
+
+.portfolio-box .norm {
+  width: 31.5%;
+}
+
+.portfolio-box .big {
+  width: 48%;
+}
+
+#about {
+  margin-top: 7rem !important;
+}
+
+.about-box .about-img {
+  width: 35% !important;
+}
+
+.about-box .about-img img {
+  width: 100%;
+}
+
+.about-box .about-text {
+  width: 35%;
+}
+
+.about-box2 .book-btn {
+  background-color: #ff0000;
+  border-bottom-right-radius: 0.8rem !important;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000;
+}
+
+.about-box2 .book-btn:hover {
+  background: #8a0303;
+}
+
+.about-box2 {
+  flex-direction: row-reverse;
+}
+
+.about-box2 .about-img {
+  width: 35% !important;
+}
+
+.about-box2 .about-img img {
+  width: 100%;
+}
+.about-box2 .about-text {
+  width: 35%;
+}
+
+#contact {
+  background: #ed7c7c;
+}
+
+#contact .book-btn {
+  background-color: #ff0000;
+  border-bottom-right-radius: 0.8rem !important;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000;
+  text-decoration: none;
+  padding: 0.5rem 1.3rem;
+}
+
+#contact .book-btn:hover {
+  background: #8a0303;
+}
+
+#contact .join-btn {
+  background-color: #626364;
+  border-top-left-radius: 0.8rem !important;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000;
+  text-decoration: none;
+  padding: 0.5rem 1.3rem;
+}
+
+#contact .join-btn:hover {
+  background-color: #303234;
+}
+
+.contact-box h3 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-options svg {
+  width: 15%;
+  margin: 0.4rem auto 0.7rem auto;
+}
+
+.contact-options .card {
+  line-height: 0.9rem;
+}
+
+.contact-options .card:hover {
+  background: #9e9ea2 !important;
+  color: #fff;
+}
+
+.contact-options .card p {
+  font-weight: bold;
+}
+
+.footer {
+  line-height: 0.8rem;
+}
+
+.footer-list p a {
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.footer .designed {
+  margin: 0 auto;
+}
+
+.footer .designed a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1024px) {
+  .header-text {
+    width: 65% !important;
+  }
+
+  .services-box .services-content {
+    width: 43%;
+  }
+
+  .portfolio img {
+    width: 43%;
+  }
+
+  .about-box .about-img,
+  .about-box2 .about-img {
+    width: 40% !important;
+  }
+  .about-box .about-text,
+  .about-box2 .about-text {
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-image: url("Images/dart11.svg");
+  }
+
+  .nav-list li {
+    border-bottom: none !important;
+    padding: 0.4rem 0.5rem;
+  }
+
+  .header {
+    margin-top: -2rem !important;
+  }
+
+  .header .header-title {
+    width: 80% !important;
+  }
+  .header-title h3 {
+    line-height: 2.5rem !important;
+  }
+
+  .header-text {
+    width: 80% !important;
+  }
+
+  .dropdown-menu {
+    margin-left: 0rem;
+    background-color: #ff030364 !important;
+  }
+
+  .services-box .services-content {
+    width: 46%;
+    padding: 0.9rem 1rem !important;
+  }
+
+  .portfolio img {
+    width: 46%;
+  }
+
+  .about-box .about-img,
+  .about-box2 .about-img {
+    width: 95% !important;
+  }
+  .about-box .about-text,
+  .about-box2 .about-text {
+    width: 97% !important;
+  }
+}
+
+@media (max-width: 568px) {
+  .nav-list li {
+    margin-left: -0.6rem;
+  }
+
+  .dropdown-menu li {
+    margin-left: -1rem;
+  }
+
+  .header .header-title {
+    width: 97% !important;
+  }
+
+  .header-text {
+    width: 97% !important;
+  }
+
+  .services-box .services-content {
+    width: 96%;
+    padding: 0.9rem 0.8rem !important;
+  }
+  .portfolio img {
+    width: 90%;
+  }
+
+  .contact-box h3 {
+    width: 95%;
+  }
+}
