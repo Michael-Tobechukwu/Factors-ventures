@@ -7,13 +7,14 @@
   background: #fff;
 }
 
-.nav-list {
-  margin-left: 5rem !important;
+.navbar-brand {
+  margin: 0;
+  width: 150px;
 }
 
 .nav-list li {
   display: inline-block;
-  margin-left: 1.2rem;
+  margin-left: 1rem;
   padding: 0.4rem 0.2rem;
   cursor: pointer;
   color: #303234;
