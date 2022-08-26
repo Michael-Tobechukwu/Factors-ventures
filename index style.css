@@ -108,7 +108,7 @@
 
 .header-box .book-btn {
   background-color: #ff0000;
-  border-bottom-right-radius: 0.8rem !important;
+  border-radius: 1.2rem !important;
   color: #fff;
   cursor: pointer;
   box-shadow: 3px 3px 5px #000;
@@ -117,6 +117,44 @@
 .header-box .book-btn:hover {
   background-image: linear-gradient(to right, #a20404, rgba(255, 0, 0, 1));
 }
+
+.buttons .book-btn {
+  background-color: #ff0000;
+  border-bottom-right-radius: 0.8rem !important;
+  border-top-left-radius: 0.8rem !important;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px #000;
+  text-decoration: none;
+  animation-name: button;
+  animation-iteration-count: infinite;
+  animation-duration: 0.8s;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+}
+
+/*animation for book button*/
+@keyframes button {
+  from {
+    background-image: linear-gradient(
+      to right,
+      #900404,
+      rgb(242, 42, 42),
+      rgba(255, 0, 0, 1)
+    );
+  }
+
+  to {
+    background-image: linear-gradient(
+      to left,
+      #900404,
+      rgb(242, 42, 42),
+      rgba(255, 0, 0, 1)
+    );
+  }
+}
+
+/*animation for book button end here*/
 
 .brands {
   margin: 7rem 0 0 0 !important;
@@ -139,12 +177,44 @@
 .brands-box img {
   width: 10%;
   height: 20%;
-  transition: ease 0.7s;
+  padding: 1rem;
 }
 
-.brands-box img:hover {
-  transform: scale(120%);
+.brands-box :nth-child(even) {
+  animation-name: even-anime;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
+
+.brands-box :nth-child(odd) {
+  animation-name: odd-anime;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+  animation-direction: alternate;
+}
+
+/*animation for brands logo*/
+@keyframes even-anime {
+  from {
+    transform: scale(100%);
+  }
+
+  to {
+    transform: scale(120%);
+  }
+}
+
+@keyframes odd-anime {
+  from {
+    transform: scale(120%);
+  }
+  to {
+    transform: scale(100%);
+  }
+}
+/*animation for brands logo ends*/
 
 .services {
   margin-top: 7rem !important;
@@ -252,13 +322,10 @@
   padding: 0.5rem 1.3rem;
 }
 
-#contact .book-btn:hover {
-  background: #8a0303;
-}
-
-#contact .join-btn {
+.buttons .join-btn {
   background-color: #626364;
   border-top-left-radius: 0.8rem !important;
+  border-bottom-right-radius: 0.8rem !important;
   color: #fff;
   cursor: pointer;
   box-shadow: 2px 2px 3px #000;
@@ -334,6 +401,12 @@
   .about-box .about-text,
   .about-box2 .about-text {
     width: 40% !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu-bar {
+    justify-content: space-between;
   }
 }
 
@@ -418,5 +491,10 @@
 
   .contact-box h3 {
     width: 95%;
+  }
+
+  .footer .copy,
+  .footer .designed {
+    line-height: 1.1rem;
   }
 }
