@@ -124,6 +124,7 @@
   .sentiment-box,
   .publicrelations-box {
     flex-direction: column;
+    margin-bottom: 5rem !important;
   }
   .services-items .img {
     width: 95%;
@@ -131,5 +132,9 @@
 
   .services-items .text {
     width: 95%;
+  }
+
+  .services-items .text h3 {
+    text-align: center;
   }
 }
