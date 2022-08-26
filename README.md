@@ -1,3 +1,4 @@
 # Factors-ventures
 Website for Factors Ventures, digital marketing agency
-Live link: https://michael-tobechukwu.github.io/Factors-ventures
+Live link - homepage: https://michael-tobechukwu.github.io/Factors-ventures
+Services page: https://michael-tobechukwu.github.io/Factors-ventures/services.html
