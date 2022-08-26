@@ -120,8 +120,7 @@
 
 .buttons .book-btn {
   background-color: #ff0000;
-  border-bottom-right-radius: 0.8rem !important;
-  border-top-left-radius: 0.8rem !important;
+  border-radius: 3rem !important;
   color: #fff;
   cursor: pointer;
   box-shadow: 3px 3px 5px #000;
@@ -131,6 +130,22 @@
   animation-duration: 0.8s;
   animation-direction: alternate;
   animation-timing-function: ease-out;
+}
+
+.influence .join-btn {
+  background-color: #626364;
+  border-radius: 3rem !important;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000;
+  text-decoration: none;
+  padding: 0.5rem 1.3rem;
+  animation-name: influencer;
+  animation-iteration-count: infinite;
+  animation-duration: 1.2s;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-fill-mode: backwards;
 }
 
 /*animation for book button*/
@@ -155,6 +170,21 @@
 }
 
 /*animation for book button end here*/
+
+/*animation for influencer pool*/
+@keyframes influencer {
+  from {
+    background: #fff;
+    color: #303324;
+  }
+
+  to {
+    background: #303324;
+    color: #fff;
+  }
+}
+
+/*animation for influencer pool ends*/
 
 .brands {
   margin: 7rem 0 0 0 !important;
@@ -314,27 +344,12 @@
 
 #contact .book-btn {
   background-color: #ff0000;
-  border-bottom-right-radius: 0.8rem !important;
+  border-radius: 3rem !important;
   color: #fff;
   cursor: pointer;
   box-shadow: 2px 2px 3px #000;
   text-decoration: none;
   padding: 0.5rem 1.3rem;
-}
-
-.buttons .join-btn {
-  background-color: #626364;
-  border-top-left-radius: 0.8rem !important;
-  border-bottom-right-radius: 0.8rem !important;
-  color: #fff;
-  cursor: pointer;
-  box-shadow: 2px 2px 3px #000;
-  text-decoration: none;
-  padding: 0.5rem 1.3rem;
-}
-
-#contact .join-btn:hover {
-  background-color: #303234;
 }
 
 .contact-box h3 {
