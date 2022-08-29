@@ -168,4 +168,8 @@ hr {
     justify-content: start;
     margin-bottom: 1rem;
   }
+  
+  .social-handle {
+    text-align: left !important;
+  }
 }
