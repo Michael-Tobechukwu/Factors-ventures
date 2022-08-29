@@ -502,6 +502,7 @@
   .header-text {
     width: 97% !important;
     color: #fff !important;
+    text-shadow: 1px 1px 3px #000;
   }
 
   .services-box .services-content {
