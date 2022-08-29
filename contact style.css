@@ -1,0 +1,165 @@
+.title,
+.subtitle {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.title span {
+  color: #ff0000;
+}
+
+form {
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #fb9797 !important;
+}
+
+.form-2 {
+  background: #a1a39a !important;
+}
+
+.form-row {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.labels {
+  width: 35%;
+  margin-bottom: 2.2rem;
+}
+
+.labels label {
+  font-weight: bold;
+  font-size: 1.3rem;
+  width: 100%;
+  text-align: right;
+}
+
+.input-fields {
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.input-fields input {
+  padding: 0.7rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.button {
+  width: 100%;
+  text-align: center !important;
+}
+
+.button button {
+  cursor: pointer;
+  border-radius: 3rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  border: none;
+  font-size: 1.2rem;
+  color: #fff;
+  box-shadow: 3px 3px 5px #000;
+  margin-top: 2rem;
+  animation-name: button;
+  animation-iteration-count: infinite;
+  animation-duration: 0.8s;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+}
+
+hr {
+  margin-top: 7rem;
+  border: #000 solid 1px;
+}
+
+#influence {
+  margin-top: 5rem !important;
+}
+
+.form-row2 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.input-fields2 {
+  width: 40%;
+}
+
+.input-fields2 label {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.footer {
+  line-height: 0.8rem;
+}
+
+.footer-list p a {
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.footer .designed {
+  margin: 0 auto;
+}
+
+.footer .designed a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+  .form-row {
+    align-items: center !important;
+    gap: 5px !important;
+  }
+
+  .labels {
+    width: 30%;
+    margin-top: 0.1rem !important;
+    margin-bottom: 0.1rem !important;
+  }
+  .input-fields {
+    width: 60%;
+  }
+}
+
+@media (max-width: 568px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .labels {
+    width: 50%;
+  }
+
+  .labels label {
+    text-align: center !important;
+  }
+
+  .input-fields {
+    width: 90%;
+  }
+
+  .input-fields input {
+    text-align: left !important;
+  }
+}
