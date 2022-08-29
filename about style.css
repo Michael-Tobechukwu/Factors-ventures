@@ -64,3 +64,61 @@
 .navbar-toggler-icon {
   color: #ff0000;
 }
+
+.aboutheader {
+  background-image: url("Images/about\ header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 7rem !important;
+}
+
+.about-content {
+  margin-top: 5rem !important;
+}
+
+.about-content p {
+  width: 45%;
+}
+
+.about-content p span {
+  color: #ff0000 !important;
+}
+
+.aboutbox1 {
+  flex-direction: row-reverse;
+  margin-bottom: 5rem !important;
+}
+
+.aboutbox1 img,
+.aboutbox2 img {
+  width: 40%;
+}
+
+.aboutbox1 p,
+.aboutbox2 p {
+  width: 40%;
+}
+
+@media (max-width: 1024px) {
+  .about-content p {
+    width: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutbox1,
+  .aboutbox2 {
+    flex-direction: column;
+  }
+
+  .aboutbox1 img,
+  .aboutbox1 p,
+  .aboutbox2 img,
+  .aboutbox2 p {
+    width: 95%;
+  }
+
+  .about-content p {
+    width: 95%;
+  }
+}
