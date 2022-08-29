@@ -65,6 +65,10 @@
   color: #ff0000;
 }
 
+.services-paragraph {
+  width: 50%;
+}
+
 .services-items .img {
   width: 30%;
 }
@@ -106,6 +110,10 @@
 }
 
 @media (max-width: 1024px) {
+  .services-paragraph {
+  width: 65%;
+}
+  
   .services-items .img {
     width: 30%;
   }
@@ -115,7 +123,12 @@
   }
 }
 
+
 @media (max-width: 768px) {
+    .services-paragraph {
+    width: 95%;
+  }
+  
   .influencer-box,
   .digitalmarketing-box,
   .engagement-box,
