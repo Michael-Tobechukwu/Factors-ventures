@@ -487,6 +487,13 @@
   .dropdown-menu li {
     margin-left: -1rem;
   }
+  
+  .header {
+    background-image: url("Images/dart\ mobile1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
 
   .header .header-title {
     width: 97% !important;
@@ -494,6 +501,7 @@
 
   .header-text {
     width: 97% !important;
+    color: #fff !important;
   }
 
   .services-box .services-content {
