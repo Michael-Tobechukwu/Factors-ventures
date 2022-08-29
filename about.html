@@ -21,6 +21,61 @@
       href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Work+Sans:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+
+    <script>
+      "use strict";
+
+      !(function () {
+        var t = (window.driftt = window.drift = window.driftt || []);
+        if (!t.init) {
+          if (t.invoked)
+            return void (
+              window.console &&
+              console.error &&
+              console.error("Drift snippet included twice.")
+            );
+          (t.invoked = !0),
+            (t.methods = [
+              "identify",
+              "config",
+              "track",
+              "reset",
+              "debug",
+              "show",
+              "ping",
+              "page",
+              "hide",
+              "off",
+              "on",
+            ]),
+            (t.factory = function (e) {
+              return function () {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }),
+            t.methods.forEach(function (e) {
+              t[e] = t.factory(e);
+            }),
+            (t.load = function (t) {
+              var e = 3e5,
+                n = Math.ceil(new Date() / e) * e,
+                o = document.createElement("script");
+              (o.type = "text/javascript"),
+                (o.async = !0),
+                (o.crossorigin = "anonymous"),
+                (o.src =
+                  "https://js.driftt.com/include/" + n + "/" + t + ".js");
+              var i = document.getElementsByTagName("script")[0];
+              i.parentNode.insertBefore(o, i);
+            });
+        }
+      })();
+      drift.SNIPPET_VERSION = "0.3.1";
+      drift.load("7nahs4gkaf8k");
+    </script>
+    <!-- End of Async Drift Code -->
+
     <title>
       About | B2B Digital Media & Marketing Solutions | Factors Ventures |
       Nigeria
@@ -65,7 +120,7 @@
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#work">Our Work</a>
+                  <a class="nav-link" href="portfolio.html">Our Work</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -127,13 +182,148 @@
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
+                  <a class="nav-link" href="index.html">Blog</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
+      <!--nav ends-->
+
+      <main class="container-fluid my-5">
+        <div class="aboutheader container-fluid py-5 mt-0">
+          <div class="about-content container py-5">
+            <h1 class="display-3 fw-bold text-white">Who We Are</h1>
+            <p class="fs-4 text-white">
+              We are a <span class="fw-bold">creative</span> B2B Digital Media &
+              Marketing Solutions Agency focused on helping you
+              <span class="fw-bold">hit the bull's eye.</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="aboutbox1 container d-flex flex-wrap justify-content-center align-items-center my-5 fs-4 gap-4"
+        >
+          <img src="Images/digital marketing.png" alt="" />
+          <p>
+            We combine our expertise in influencer marketing, brand perception
+            management, digital and social media marketing strategy, plus our
+            vast social network reach, to help top-tier brands hit and exceed
+            their marketing target.
+          </p>
+        </div>
+
+        <div
+          class="aboutbox2 container d-flex flex-wrap justify-content-center align-items-center my-5 fs-4 gap-4"
+        >
+          <img src="Images/business.png" alt="" />
+          <p>
+            With over 500 marketing campaigns in our portfolio and 8+ years of
+            experience, we can help you build and sustain a brand that'll sit at
+            the top of your target audience's mind as the most-loved and
+            most-preferred - now that's what you call hitting the bull's eye!
+          </p>
+        </div>
+      </main>
+
+      <section id="clients" class="brands container-fluid my-5">
+        <div class="clients-text container mb-5">
+          <h1 class="fw-bold display-4 text-left mb-0 ml-0">Our Clients</h1>
+          <p class="fs-5">
+            We are humble and proud to have worked with
+            <span style="color: #ff0000">amazing clients.</span>
+          </p>
+        </div>
+
+        <div
+          class="brands-box container d-flex justify-content-center align-items-center flex-wrap gap-5"
+        >
+          <img src="Images/First-Bank.png" alt="First bank logo" width="" />
+          <img src="Images/opay.jpg" alt="OPay logo" />
+          <img src="Images/argent.png" alt="argent and fletcher logo" />
+          <img
+            src="Images/Media perspective logo.png"
+            alt="Media Perspectives"
+          />
+          <img src="Images/media reach.png" alt="Media Reach logo" />
+          <img src="Images/dentsu.png" alt="Densu logo" />
+          <img src="Images/vizeum.png" alt="Viseum logo" />
+          <img src="Images/imaginarium.png" alt="imaginarium logo" />
+          <img src="Images/iprospect.png" alt="iprospect logo" />
+          <img src="Images/redtown.png" alt="RedTown" />
+          <img src="Images/uber.png" alt="Uber" />
+          <img src="Images/gbfoods.png" alt="Gb Foods" />
+          <img src="Images/YellowBrickRoad.webp" alt="Yellow Brick Road" />
+          <img src="Images/seid.png" alt="SEID logo" />
+        </div>
+      </section>
+
+      <section id="contact" class="contact my-5 py-5 container-fluid bg-dark">
+        <div class="contact-box container py-2 text-center">
+          <h3 class="display-5 text-white text-center mb-5 fw-bold">
+            Ready to create an unforgetable brand and smash your marketing
+            goals?!
+          </h3>
+          <div
+            class="buttons d-flex flex-wrap justify-content-center align-items-center gap-4"
+          >
+            <a href="contact.html" class="book-btn fw-bold fs-3"
+              >Book A Consultation Now</a
+            >
+          </div>
+          <h2 class="display-4 my-5 text-center text-white fw-bold">
+            Contacts
+          </h2>
+
+          <div
+            class="contact-options d-flex flex-wrap justify-content-center mb-5 gap-4"
+          >
+            <div class="card rounded-0 border-1 p-4 text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"
+                />
+              </svg>
+
+              <p class="fs-4 mt-4" style="color: #ff0000">GIVE US A CALL</p>
+
+              <p class="">
+                <a
+                  href="tel:+2348130241611"
+                  class="fs-3 text-dark"
+                  style="text-decoration: none"
+                  >+234 813 024 1611</a
+                >
+              </p>
+            </div>
+            <div class="card rounded-0 border-1 p-4 text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"
+                />
+              </svg>
+              <p class="fs-4 mt-4" style="color: #ff0000">SEND US AN EMAIL</p>
+
+              <p class="fs-3">info@factorsventures.ng</p>
+            </div>
+            <div class="card rounded-0 border-1 p-4 text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"
+                />
+              </svg>
+
+              <p class="fs-4 mt-2" style="color: #ff0000">FIND US</p>
+
+              <p class="fs-4" style="width: 95%; line-height: 1.2rem">
+                42, Association Avenue, Ilupeju, Lagos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <footer id="footer" class="container-fluid mt-5 mb-3">
         <div class="footer container">
@@ -141,9 +331,9 @@
             class="footer-list d-flex flex-wrap justify-content-center gap-4"
           >
             <p class="fs-5"><a href="index.html">Home</a></p>
-            <p class="fs-5"><a href="#about">About Us</a></p>
-            <p class="fs-5"><a href="#services">Services</a></p>
-            <p class="fs-5"><a href="#work">Portfolio</a></p>
+            <p class="fs-5"><a href="about.html">About Us</a></p>
+            <p class="fs-5"><a href="services.html">Services</a></p>
+            <p class="fs-5"><a href="portfolio.html">Portfolio</a></p>
             <p class="fs-5"><a href="#contact">Contact</a></p>
           </div>
           <p class="copy text-center fs-5">
@@ -158,6 +348,7 @@
         </div>
       </footer>
     </div>
+    <!--wrapper ends-->
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.js"></script>
