@@ -127,39 +127,45 @@ hr {
 /*MEDIA QUERIES*/
 
 @media (max-width: 768px) {
-  .form-row {
+  .title,
+  .subtitle {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  form,
+  .form-2 {
+    width: 100%;
+  }
+
+  .form-row,
+  .form-row2 {
     align-items: center !important;
     gap: 5px !important;
-  }
-
-  .labels {
-    width: 30%;
-    margin-top: 0.1rem !important;
-    margin-bottom: 0.1rem !important;
-  }
-  .input-fields {
-    width: 60%;
-  }
-}
-
-@media (max-width: 568px) {
-  .form-row {
     flex-direction: column;
   }
 
   .labels {
-    width: 50%;
+    width: 90%;
+    margin-top: 0.1rem !important;
+    margin-bottom: 0.1rem !important;
   }
-
-  .labels label {
-    text-align: center !important;
-  }
-
   .input-fields {
     width: 90%;
   }
 
-  .input-fields input {
+  .input-fields input,
+  .input-fields2 input,
+  .input-fields2 label,
+  .labels label {
     text-align: left !important;
+  }
+
+  .input-fields2 {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    margin-bottom: 1rem;
   }
 }
