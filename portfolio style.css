@@ -1,0 +1,91 @@
+.text {
+  margin-top: 7rem !important;
+  margin-bottom: 7rem !important;
+  width: 55%;
+}
+
+.text h1 {
+  text-shadow: 1px 1px 3px #303324;
+}
+
+.contentbox {
+  width: 45%;
+}
+
+.contentbox img {
+  width: 100%;
+  transition: 0.4s;
+}
+
+.img-container .contentbox:nth-child(5),
+.img-container .contentbox:nth-child(10),
+.img-container .contentbox:nth-child(15) {
+  width: 92%;
+}
+
+.contentbox p {
+  margin: 1rem auto 2rem auto;
+  width: 95%;
+  text-align: center;
+  padding: 1rem;
+  background: #8b0000;
+  color: #fff;
+  text-align: center;
+}
+
+.contentbox img:hover {
+  transform: scale(105%);
+}
+
+.text p span img {
+  width: 70%;
+  animation-name: wire;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+}
+
+@keyframes wire {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.influencer-heading {
+  width: 45%;
+}
+
+.influencer-container .contentbox:nth-child(1) {
+  width: 92%;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+  .text {
+    width: 65%;
+  }
+  .contentbox,
+  .img-container .contentbox:nth-child(5) {
+    width: 100%;
+  }
+
+  .influencer-heading {
+    width: 65%;
+  }
+}
+
+@media (max-width: 568px) {
+  .text {
+    width: 95%;
+  }
+
+  .influencer-heading {
+    width: 95%;
+  }
+}
